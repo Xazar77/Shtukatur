@@ -1,0 +1,17 @@
+@media (max-width: 1340px) {
+    .benefit {
+        &__wrapper {
+            flex-wrap: wrap;
+        }
+        &__wall,
+        &__floor {
+            display: block;
+            margin: 0 auto;
+            &_item {
+                width: 716px;
+            
+            }
+        }
+        
+    }
+}

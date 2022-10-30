@@ -1,0 +1,31 @@
+.burger {
+    position: absolute;
+    top: 25px;
+    right: 45px;
+    width: 24px;
+    height: 18px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    span {
+        width: 24px;
+        height: 3px;
+        background-color: $header_black;
+        
+    }
+    &_active {
+        span {
+            &:nth-child(1){
+                transform: translateY(10px) rotate(-45deg) 
+            }
+            &:nth-child(2){
+                display: none
+            }
+                
+            &:nth-child(3) {
+                transform: translateY(-5px) rotate(45deg)
+            }
+            
+        }
+    }
+}

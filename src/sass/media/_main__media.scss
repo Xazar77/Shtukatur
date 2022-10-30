@@ -1,0 +1,303 @@
+@media (max-width: 1770px) {
+    .main {
+        &__bg{
+            right: -50px;
+            width: 650px;
+             
+        }
+    }
+}
+@media (max-width: 1500px) {
+    .main {
+        &__bg{
+            right: -60px;
+            width: 600px; 
+            
+            &_img {
+                width: 600px; 
+                height: auto;
+                img {
+                    width: 100%;
+                }
+            }
+            &_block {
+                width: 150px;
+                height: 150px;
+            }
+            &_block-wrap{
+                img {
+                    width: 70px;
+                    height: 65px;
+                }
+            }
+            &_block-text{
+                font-size: 12px;
+                line-height: 16px;
+                span {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 1240px) {
+    .main {
+        &__bg{
+            right: -90px;
+            width: 430px;
+            height: 450px;
+            &_img {
+                width: 430px;
+                
+            }
+            &_block {
+                display: none;
+            }
+             
+        }
+
+        &__our-work {
+            &_item {
+                width: 280px;
+            }
+        }
+    }
+}
+@media (max-width: 991px) {
+    .main {
+        height: 635px;
+        &__bg{
+            right: -36px;
+            width: 360px;
+            height: 397px;
+            &_img {
+                width: 360px;
+                height: 397px;
+            }
+             
+        }
+        
+        &__title {
+            width: 475px;
+            font-size: 22px;
+            line-height: 30px;
+            
+            span {
+                display: inline-block;
+            }
+        }
+        &__subtitle {
+            width: 221px;
+            height: 60px;
+            font-size: 19px;
+            margin: 0;
+        }
+        &__garant {
+            width: 400px;
+            img {
+                width: 100%;
+            }
+            &_text {
+                top: 11px;
+                left: 62px;
+                font-size: 15px;
+            }
+        }
+        &__text {
+            width: 500px;
+            height: 50px;
+            font-size: 17px;
+        }
+        &__button {
+            .btn{
+                &_big{
+                    width: 314px;font-size: 14px;
+                }
+            }
+            &_text {
+                font-size: 16px;
+            }
+        }
+        &__our-work{
+            bottom: -140px;
+            &_item {
+                width: 213px;
+                height: 105px;
+            }
+            &_text {
+                font-size: 15px;
+                line-height: 17px;
+                span {
+                    font-size: 20px;
+                    line-height: 30px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:767px) {
+    
+    .main {
+        height: 816px;
+        padding-top: 40px;
+        &__bg{
+            top: 419px;
+            left: 50%;
+            transform: translateX(-50%);
+   
+        }
+        
+        &__title {
+            margin: 0 auto;
+            text-align: center;
+            font-size: 21px;
+            line-height: 32px;
+        }
+        &__subtitle {
+            width: 215px;
+            height: 50px;
+            font-size: 18px;
+            margin: 0 auto;
+            padding: 5px 20px;
+        }
+        &__garant {
+            display: none;
+            
+            
+        }
+        &__text {
+            display: none;
+        }
+        &__button {
+            .btn{
+                &_big{
+                    display: block;
+                    margin: 0 auto;
+                    width: 300px;
+                    font-size: 12px;
+                }
+            }
+            &_text {
+                display: block;
+                text-align: center;
+                font-size: 15px;
+                margin-top: 27px;
+            }
+        }
+        &__our-work{
+            flex-direction: column;
+            align-items: center;
+            top: 727px;
+            
+            &_item {
+                width: 100%;
+                display: none;
+                height: 103px;
+                &_active{
+                    display: block;
+                }
+            }
+            
+            &_text {
+                font-size: 14px;
+                line-height: 24px;
+                span {
+                    font-size: 24px;
+                    line-height: 45px;
+                }
+            }
+            &_dots{
+                display: flex;
+                bottom: -500px;
+            }
+        }
+    }
+}
+@media (max-width: 576px) {
+    .main {
+               
+        &__title {
+            width: 350px;
+            height: 220px;
+            font-size: 21px;
+            line-height: 30px;
+        }
+        &__subtitle {
+            width: 221px;
+            height: 60px;
+            font-size: 19px;
+            
+        }
+        
+        
+        &__button {
+            .btn{
+                &_big{
+                    width: 314px;
+                    font-size: 14px;
+                }
+            }
+            &_text {
+                font-size: 16px;
+            }
+        }
+        &__bg {
+            width: 310px;
+            height: 380px;
+            top: 446px;
+            &_img {
+                width: 310px;
+                
+            }
+            
+        }
+        &__our-work{
+            &_dots{
+                
+                bottom: -410px;
+            }
+        }
+        
+    }
+}
+
+@media (max-width: 360px) {
+    .main {
+        height: 816px;
+        &__title {
+            width: 320px;
+            height: 180px;
+            font-size: 21px;
+            line-height: 30px;
+            span {
+                display: inline;
+            }
+        }
+        &__subtitle {
+            margin: 20px auto 0 auto;
+            width: 211px;
+            height: 47px;
+            font-size: 18px;
+        }
+        &__bg {
+            width: 340px;
+            height: 380px;
+            left: 125px;
+            &_img {
+                width: 340px;
+                height: 380px;
+            }
+            
+        }
+        &__our-work {
+            &_item {
+                bottom: -276px;
+                left: 22%;
+            }
+            &_dots {
+                bottom: -450px;
+            }
+        }
+    }
+}

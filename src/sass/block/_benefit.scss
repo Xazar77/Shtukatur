@@ -1,0 +1,55 @@
+.benefit{
+    padding: 96px 0;
+    background: #FAFAFA;
+   
+    &__wrapper {
+        margin-top: 40px;
+        display: flex;
+        align-items: center;
+        
+        gap: 60px;
+    }
+    &__wall,
+    &__floor {
+        
+        &__block {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+        &_text {
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 30px;
+            color: $header_black;
+            span {
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 27px;
+            }
+        }
+        &__list {
+            margin-top: 30px;
+        }
+        &_item {
+            position: relative;
+            list-style-type: none;
+            margin-bottom: 15px;
+            width: 600px;
+            &:last-child{
+                margin-bottom: 0;
+            }
+            &::before{
+                content: '';
+                position: absolute;
+                top: -5px;
+                left: -40px;
+                display: block;
+                width: 30px;
+                height: 30px;
+                background: url('../icons/check_small.png') center center/cover no-repeat;
+
+            }
+        }
+    }
+}

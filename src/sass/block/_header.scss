@@ -1,0 +1,76 @@
+.header {
+    background: $bg_color;
+    box-shadow: 4px 4px 24px rgba(0, 0, 0, 0.08);
+    height: 74px;
+    padding: 5px 0;
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__logo {
+        width: 398px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        // padding: 3px 0;
+        &_icon {
+            width: 157px;
+            height: 64px;
+            img {
+                width: 100%;
+            }
+        }
+        &_text {
+            width: 197px;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 20px;
+            color: $header_black;
+        }
+
+    }
+    &__list {
+        width: 342px;
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__link {
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: $header_black;
+        &:hover {
+            font-weight: 700;
+            color: #000000;
+        }
+    }
+    
+    &__contacts {
+        width: 243px;
+        display: flex;
+        justify-content: space-between;
+        &_phone {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            a {
+                display: block;
+                text-decoration: none;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 27px;
+                color: $header_black;
+            }
+            small {
+                font-weight: 500;
+                font-size: 12px;
+                line-height: 18px;
+                color: light_grey;
+            }
+        }
+    }
+}
