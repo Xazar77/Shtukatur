@@ -1,0 +1,104 @@
+.calc {
+    padding: 100px 0 50px 0;
+    background: #FAFAFA;
+    &__subtitle {
+        margin-top: 15px;
+        text-align: center;
+    }
+    &__btn-group {
+        background: #FAFAFA;
+        margin-top: 48px;
+    } 
+    &__choose-job,
+    &__room {
+        // margin-top: 24px;
+        // margin-bottom: 43px;
+        display: flex;
+        &__item {
+            width: 198px;
+            height: 244px;
+            margin-right: 31px;
+            &:last-child{
+                margin-right: 0;
+            }
+            &_text{
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 24px;
+                text-align: center;
+                color: $header_black;
+            }
+        }
+    }
+    
+    &__block{
+        display: none;
+        border-radius: 16px;
+        &_active {
+            display: block;
+        }
+        &__btns {
+            width: 400px;
+            height: 56px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+    }
+    &__layer{
+        width: 800px;
+        height: 200px;
+        margin: 0 auto;
+        margin-top: 24px;
+        margin-bottom: 52px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &__width {
+            padding: 44px 0;
+            display: grid;
+            grid-template-columns: repeat(2, 178px);
+            grid-template-rows: repeat(2, 48px);
+            grid-auto-rows: 48px;
+            gap: 15px;
+        }
+    }
+    &__square,
+    &__contacts {
+        width: 800px;
+        height: 200px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 52px;
+        &__input {
+            input {
+                width: 370px;
+                height: 56px;
+                background: $bg_color;
+                border: 1px solid #E0E0E0;
+                border-radius: 100px;
+                padding: 16px;
+            }
+        }
+    }
+    &__delivery,
+    &__post {
+        width: 800px;
+        height: 200px;
+        margin: 0 auto;
+        margin-bottom: 52px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__delivery{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    
+}

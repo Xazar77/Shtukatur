@@ -7,11 +7,45 @@
         &__floor {
             display: block;
             margin: 0 auto;
-            &_item {
-                width: 716px;
-            
-            }
         }
         
+    }
+}
+@media (max-width: 768px) {
+    .benefit {
+        &__wall,
+        &__floor {
+            &_item {
+                width: 500px;
+            }
+        }
+    }
+}
+@media (max-width: 576px) {
+    .benefit {
+        &__wall,
+        &__floor {
+            &_item {
+                width: 350px;
+            }
+        }
+    }
+}
+@media (max-width: 360px) {
+    .benefit {
+        .title.title__benefit {
+            font-size: 20px;
+            line-height: 30px;
+        }
+        &__wall,
+        &__floor {
+            &_item {
+                width: 340px;
+            }
+            &_text {
+                font-size: 16px;
+                line-height: 24px;
+            }
+        }
     }
 }
