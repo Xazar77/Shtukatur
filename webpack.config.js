@@ -17,7 +17,7 @@ module.exports = {
     devServer: {
         port: 4200,
         open: true,
-        // hot: true
+        hot: true
     },
     entry: ["@babel/polyfill",path.resolve(__dirname, 'src', 'index.js')],
     output: {
@@ -78,7 +78,7 @@ module.exports = {
                               enabled: false,
                             },
                             pngquant: {
-                              quality: [0.65, 0.90],
+                              quality: '65-90',
                               speed: 4
                             },
                             gifsicle: {
@@ -87,8 +87,11 @@ module.exports = {
                             // the webp option will enable WEBP
                             webp: {
                               quality: 75
+                            },
+                            svgo:{
+                                enabled: false,
                             }
-                          }
+                        }
                     }
                 ],
                 type: 'asset/resource',

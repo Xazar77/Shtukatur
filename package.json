@@ -1,12 +1,10 @@
 {
   "name": "shtukatur",
   "version": "1.0.0",
-  "description": "",
-  "main": "webpack.config.js",
+  "private": true,
   "scripts": {
     "start": "webpack serve",
     "dev": "webpack",
-    "watch": "webpack --watch",
     "build": "webpack --node-env=production",
     "clear": "rd /s /q dist"
   },
@@ -25,7 +23,7 @@
     "css-loader": "^6.7.1",
     "html-loader": "^4.2.0",
     "html-webpack-plugin": "^5.5.0",
-    "image-webpack-loader": "^8.1.0",
+    "image-webpack-loader": "^4.2.0",
     "mini-css-extract-plugin": "^2.6.1",
     "postcss": "^8.4.18",
     "postcss-loader": "^7.0.1",
@@ -39,5 +37,14 @@
   },
   "dependencies": {
     "@babel/polyfill": "^7.12.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xazar77/Shtukatur.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Xazar77/Shtukatur/issues"
+  },
+  "homepage": "https://github.com/Xazar77/Shtukatur#readme",
+  "description": ""
 }
