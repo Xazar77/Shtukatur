@@ -6,7 +6,7 @@ const calc = () => {
     const btnsPrev = document.querySelectorAll('.btn__block_prev');
     const btnsLayer = document.querySelectorAll('.btn_layer ');
     const btnsDelivery = document.querySelectorAll('.btn_delivery');
-    const btnsPost = document.querySelectorAll('.btn_post')
+    const btnsPost = document.querySelectorAll('.btn_post');
    
     let count = 0;
 

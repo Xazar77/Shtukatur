@@ -21,11 +21,11 @@
         width: 161px;
         height: 44px;
         padding: 12px 0;
+        font-size: 16px;
+        line-height: 20px;
         &_active{
             background: $orange_color;
             border: 1px solid $orange_color;
-            font-size: 16px;
-            line-height: 20px;
             color: $bg_color;
            
         }
