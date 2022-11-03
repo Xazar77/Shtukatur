@@ -1,0 +1,38 @@
+@media (max-width: 1240px) {
+    .materials{
+        padding: 100px 0;
+        height: 1846px;
+        &__block{
+            flex-direction: column;
+            align-content: center;
+            
+        }
+    }
+}
+@media (max-width: 768px) {
+    .materials{
+        height: 1846px;
+        &__station,
+        &__stock{
+            margin-right: 0;
+            width: 500px;
+            height: 600px;
+            &__img {
+                margin-top: 0;
+                width: 320px;
+                height: 284px;
+            }
+            
+        }
+    }
+}
+@media (max-width: 576px) {
+    .materials{
+        &__station,
+        &__stock{
+            width: 320px;
+           
+            
+        }
+    }
+}

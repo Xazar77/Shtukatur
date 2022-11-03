@@ -21,3 +21,48 @@
         text-align: left;
     }
 }
+
+
+@media (max-width: 768px) {
+    .title {
+        text-align: center;
+        font-size: 21px;
+        line-height: 32px;
+        &__station,
+        &__stock,
+        &__block {
+            font-size: 20px;
+            line-height: 23px;
+            text-align: center;
+        }
+    }
+
+}
+
+@media (max-width: 576px) {
+    .title {
+        &__station,
+        &__stock,
+        &__block {
+            font-size: 20px;
+            line-height: 23px;
+            text-align: center;
+        }
+    }
+
+}
+
+
+
+@media (max-width: 360px) {
+    .title{
+        font-size: 20px;
+        line-height: 30px;
+        &__benefit,
+        &__materials {
+            font-size: 18px;
+            line-height: 27px;
+        }
+    }
+
+}

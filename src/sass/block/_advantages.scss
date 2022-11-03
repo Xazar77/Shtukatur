@@ -32,12 +32,38 @@
             border-right: 1px solid #E6E6E6;
             
         }
-        
-        
-        img {
-            display: block;
-            margin: 0 auto;
+        &_img1{
+            width: 110px;
         }
+        &_img2{
+            width: 165px;
+        }
+        &_img3{
+            width: 240px;
+        }
+        &_img4{
+            width: 88px;
+        }
+        &_img5{
+            width: 162px;
+        }
+        &_img6{
+            width: 134px;
+        }
+        &_img1,
+        &_img2,
+        &_img3,
+        &_img4,
+        &_img5,
+        &_img6 {
+            height: 120px;
+            margin: 0 auto;
+            img{
+                width: 100%;
+            }
+        }
+        
+        
         &_title{
             font-weight: 600;
             font-size: 18px;

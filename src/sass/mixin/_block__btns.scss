@@ -1,0 +1,21 @@
+@mixin block_btns_mini {
+    .calc {
+        &__block{
+            &__btns{
+                margin-top: 24px;
+                width: auto;
+                height: auto;
+                .btn.btn__block {
+                    &_next{
+                        width: 279px;
+                        height: 44px;
+                    }
+                    &_prev {
+                        margin-top: 0;
+                    }
+                    
+                }
+            }
+        }  
+    }  
+}

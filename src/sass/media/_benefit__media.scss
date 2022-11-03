@@ -33,18 +33,21 @@
 }
 @media (max-width: 360px) {
     .benefit {
-        .title.title__benefit {
-            font-size: 20px;
-            line-height: 30px;
-        }
         &__wall,
         &__floor {
             &_item {
-                width: 340px;
+                width: 320px;
+                padding-left: 40px;
+                &::before{
+                    content: '';
+                    position: absolute;
+                    top: -5px;
+                    left: 0px;
+                }
             }
             &_text {
-                font-size: 16px;
-                line-height: 24px;
+                font-size: 14px;
+                line-height: 20px;
             }
         }
     }

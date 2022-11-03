@@ -34,7 +34,14 @@
             border: 1px solid $orange_color;
             color: $bg_color;
         }
+        
     }
+    &_delivery,
+    &_post{
+        width: 370px;
+        height: 56px;
+    }
+    
     
     &__block {
         

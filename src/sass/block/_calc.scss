@@ -1,4 +1,5 @@
 .calc {
+   
     padding: 100px 0 50px 0;
     background: #FAFAFA;
     &__subtitle {
@@ -13,8 +14,6 @@
     } 
     &__choose-job,
     &__room {
-        // margin-top: 24px;
-        // margin-bottom: 43px;
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
@@ -38,6 +37,7 @@
     &__block{
         display: none;
         border-radius: 16px;
+        margin-left: 20px;
         &_active {
             display: block;
         }
@@ -59,13 +59,22 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+        
         &__width {
+            
             padding: 44px 0;
             display: grid;
             grid-template-columns: repeat(2, 178px);
             grid-template-rows: repeat(2, 48px);
             grid-auto-rows: 48px;
             gap: 15px;
+            &_img{
+                width: 370px;
+                height: 200px;
+                img{
+                    width: 100%;
+                }
+            }
         }
     }
     &__square,

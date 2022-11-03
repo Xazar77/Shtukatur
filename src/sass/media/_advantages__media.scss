@@ -58,3 +58,52 @@
         }
     }
 }
+@media (max-width: 360px) {
+    .advantages {
+        padding: 60px 0;
+        &__list {
+            grid-template-columns: minmax(320px, 1fr) ;
+            grid-template-rows: repeat(6, 259px);
+            grid-auto-rows: 259px;
+           
+        }
+        &__item{
+            margin-top: 20px;
+            padding: 0;
+            &_title {
+                font-size: 16px;
+                line-height: 24px;
+            }
+            &_descr {
+                font-size: 13px;
+                line-height: 24px
+            }
+            &_img1{
+                width: 73px;
+            }
+            &_img2{
+                width: 109px;
+            }
+            &_img3{
+                width: 159px;
+            }
+            &_img4{
+                width: 59px;
+            }
+            &_img5{
+                width: 108px;
+            }
+            &_img6{
+                width: 89px;
+            }
+            &_img1,
+            &_img2,
+            &_img3,
+            &_img4,
+            &_img5,
+            &_img6 {
+                height: 80px;
+            }
+        }
+    }
+}
