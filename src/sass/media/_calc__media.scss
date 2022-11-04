@@ -147,25 +147,29 @@
         }
         &__layer {
             width: 279px;
-            height: 389px;
-            flex-direction: column;
             height: 341px;
+            flex-direction: column;
+            margin-bottom: 0;
             &__width {
                 grid-template-columns: repeat(2, 132px);
                 padding: 0;
                 &_img{
-                    width: 279px;
-                    height: 200px;
+                    img{
+                        width: 279px;
+                        height: 200px;
+                        object-fit: cover;
+                    }
                 }
             }
         }
         &__square,
         &__contacts {
             width: 279px;
-            height: 250px;
+            height: 292px;
             flex-direction: column;
             margin-bottom: 0;
             &__input {
+                padding: 20px 0;
                 input {
                     width: 279px;
                 }
@@ -177,25 +181,19 @@
                 
             }
         }
-        &__delivery {
-            width: 279px;
-            height: 398px;
-            flex-direction: column;
-            margin-bottom: 24px;
-            
-            &_img{
-                img{
-                    width: 100%;
-                    height: 200px;
-                    object-fit: cover;
-                }
+        &__square {
+            height: 400px;
+            &__input {
+                padding: 20px 0;
             }
         }
+        &__delivery,
         &__post {
             width: 279px;
-            height: 398px;
+            height: 419px;
             flex-direction: column;
             margin-bottom: 24px;
+            
             &_img{
                 img{
                     width: 100%;
@@ -203,10 +201,10 @@
                     object-fit: cover;
                 }
             }
+            &__btn {
+                padding: 20px 0;
+            }
         }
-        
-            
-        
         &__btn-group{
             width: 320px;
             

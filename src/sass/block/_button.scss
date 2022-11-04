@@ -77,7 +77,7 @@
         text-align: left;
         padding-left: 16px;
         background: $bg_color;
-        border: 1px solid #E0E0E0;;
+        border: 1px solid border_light;
         color: #828282;
         font-weight: 400;
         &_active {
@@ -98,7 +98,7 @@
         height: 56px;
         text-align: left;
         padding-left: 16px;
-        border: 1px solid #E0E0E0;;
+        border: 1px solid border_light;
         color: #828282;
         font-weight: 400;
         margin-bottom: 15px;
@@ -115,5 +115,13 @@
             border: 1px solid $orange_color;
             color: $bg_color;
         }
+    }
+    &__cost {
+        width: 360px;
+        height: 56px;
+        background: $orange_color;
+        border: 1px solid $orange_color;
+        color: $bg_color;
+        margin-top: 30px;
     }
 }

@@ -1,0 +1,53 @@
+.cost {
+    padding: 96px 0;
+    background: $light_white;
+    &__wrapper{
+        
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 40px;
+        flex-wrap: wrap;
+    }
+    &__text {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        color: $header_black;
+    }
+    &__table {
+        width: 570px;
+       
+    }
+    &__thead {
+        height: 100px;
+        &__th{
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        } 
+    }
+    &__tbody{
+        display: block;
+        margin-top: 20px; 
+        tr {
+            td {
+                padding: 16px 0;
+                border-top: 1px solid border_color;
+            } 
+        }
+        &_name {
+            width: 450px;
+        }
+        
+    }
+    &__tfoot{
+        tr{
+            td{
+                border-top: 1px solid border_color;
+                display: flex;
+                justify-content: flex-end;
+            }
+        }
+    }
+}

@@ -1,5 +1,5 @@
 .materials {
-    background: #F5F5F5;
+    background: $light_white;
     padding: 100px 0;
     height: 1050px;
     &__block {
@@ -15,7 +15,7 @@
         &__img {
             max-width: 585px;
             height: 520px;
-            background: #FAFAFA;
+            background: $light_white;
             border-radius: 16px;
             img {
                 width: 100%;
@@ -33,6 +33,24 @@
         &__img {
             margin-top: 30px;
             padding: 43px 20px 35px 28px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            &_block{
+                width: 123px;
+                height: 200px;
+                img{
+                    width: 100%;
+                }
+                div{
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 20px;
+                    text-align: center;
+                    color: $header_black;
+                }
+            }
         }
     }
    

@@ -1,0 +1,52 @@
+@media (max-width: 1240px) {
+    .cost{
+        &__wrapper{
+            flex-direction: column;
+        }
+        &__table{
+            margin-bottom: 100px;
+            &:last-child{
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+@media (max-width: 768px) {
+    .cost {
+        padding: 60px 0;
+        &__table {
+            width: 480px;
+        }
+        &__tbody{
+            &_name{
+                width: 350px;
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .cost {
+        &__table {
+            width: 323px;
+        }
+        &__text{
+            font-size: 18px;
+            line-height: 27px;
+        }
+        &__tbody{
+            &_name{
+                width: 200px;
+            }
+           
+        }
+        &__tfoot {
+            tr{
+                td{
+                    justify-content: flex-start;
+                }
+            }
+        }
+        
+    }
+}

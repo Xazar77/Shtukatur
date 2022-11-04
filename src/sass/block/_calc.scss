@@ -1,13 +1,13 @@
 .calc {
    
     padding: 100px 0 50px 0;
-    background: #FAFAFA;
+    background: $light_white;
     &__subtitle {
         margin-top: 15px;
         text-align: center;
     }
     &__btn-group {
-        background: #FAFAFA;
+        background: $light_white;
         margin-top: 48px;
         display: flex;
         justify-content: center;
@@ -18,8 +18,8 @@
         justify-content: center;
         flex-wrap: wrap;
         &__item {
-            width: 198px;
-            height: 244px;
+            width: 160px;
+            height: 209px;
             margin-right: 31px;
             img{
                 width: 100%;
@@ -91,7 +91,7 @@
                 width: 370px;
                 height: 56px;
                 background: $bg_color;
-                border: 1px solid #E0E0E0;
+                border: 1px solid border_light;
                 border-radius: 100px;
                 padding: 16px;
             }
