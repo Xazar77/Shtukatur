@@ -1,0 +1,21 @@
+@media(max-width: 1240px) {
+    .services{
+        &__wrapper{
+            flex-direction: column;
+            margin: 0 auto;
+            width: 585px;
+        }
+        &__header{
+            margin-top: 40px;
+        }
+    }
+}
+@media(max-width: 576px) {
+    .services{
+        padding: 50px 0;
+        &__wrapper{
+            width: 300px;
+        }
+        
+    }
+}

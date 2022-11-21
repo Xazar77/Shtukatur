@@ -1,0 +1,44 @@
+@media(max-width: 991px) {
+    .discount {
+        &__wrapper{
+            padding: 50px 0;
+        }
+        &__social {
+            &_text{
+                display: block;
+                width: 272px;
+                margin: 0 auto;
+            }
+        }
+    }
+}
+@media(max-width: 768px) {
+    .discount {
+        &__phone {
+
+            &_text{
+                display: block;
+                width: 242px;
+                margin: 0 auto;
+            }
+        }
+        &__phone {
+            &_number{
+                display: block;
+                width: 165px;
+                margin: 0 auto;
+                margin-top: 15px;
+            }
+        }
+        &__social {
+            width: 273px;
+        }
+    }
+}
+@media(max-width: 576px) {
+    .discount{
+        &__phone{
+            width: auto;
+        }
+    }
+}

@@ -1,0 +1,72 @@
+.feedback{
+    
+    &__block{
+        position: relative;
+        width: 1202px;
+        height: 432px;
+        background: #FFF7F3;
+        border-radius: 16px;
+        padding: 60px;
+        &_title{
+            width: 707px;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 45px;
+            text-transform: uppercase;
+            color: $header_black;
+        }
+        &_report{
+            position: relative;
+            margin-left: 50px;
+            margin-top: 42px;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 27px;
+            color: $header_black;
+            &::before{
+                content: '';
+                position: absolute;
+                left: -50px;
+                display: block;
+                background: url('../icons/check.png') center center/cover no-repeat;
+                width: 30px;
+                height: 30px;
+            }
+        }
+        &_contact{
+            margin-top: 30px;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 30px;
+            color: $light_grey;
+            &_phone{
+                margin-left: 20px;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 27px;
+                color: $header_black;
+                text-decoration: none;
+            }
+            &_wa{
+                margin-left: 30px;
+                font-weight: 700;
+                font-size: 12px;
+                line-height: 18px;
+                text-transform: uppercase;
+                text-decoration: none;
+            }
+            
+        }
+        &_img {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 537px;
+            height: 539px;
+            img{
+                width: 100%;
+            }
+            
+        }
+    }
+}

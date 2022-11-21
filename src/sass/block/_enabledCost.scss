@@ -1,0 +1,91 @@
+.enabled-cost{
+    padding: 100px 0 142px 0;
+    &__cards{
+        display: grid;
+        grid-template-columns: repeat(3, 380px);
+        grid-template-rows: repeat(2, 338px);
+        grid-auto-rows: 338px;
+        gap: 30px;
+        margin-top: 40px;
+        &__item {
+            padding: 30px 20px;
+            background: $bg_color;
+            box-shadow: 4px 4px 24px rgba(0, 0, 0, 0.08);
+            border-radius: 16px;
+            &_card1{
+                width: 157px; 
+                display: block;
+                height: 120px;
+                margin: 0 auto;
+                margin-bottom: 20px;
+            }
+            &_card2{
+                width: 120px;
+                display: block;
+                height: 120px;
+                margin: 0 auto;
+                margin-bottom: 20px;
+            }
+            &_card3{
+                width: 124px;
+                display: block;
+                height: 120px;
+                margin: 0 auto;
+                margin-bottom: 20px;
+            }
+            &_card4{
+                width: 196px;
+                display: block;
+                height: 120px;
+                margin: 0 auto;
+                margin-bottom: 20px;
+            }
+            &_card5{
+                width: 165px;
+                display: block;
+                height: 120px;
+                margin: 0 auto;
+                margin-bottom: 20px;
+            }
+            
+            &_title{
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 27px;
+                text-align: center;
+                color: $header_black;
+               
+            }
+            &_descr{
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                text-align: center;
+                color: $light_grey;
+                margin-top: 15px;
+            }
+
+        }
+        &__popup {
+            padding: 30px 20px;
+            background:  $orange_color;
+            box-shadow: 4px 4px 24px rgba(0, 0, 0, 0.08);
+            border-radius: 16px;
+            &_title{
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 30px;
+                text-align: center;
+                color: $bg_color;
+            }
+            &_descr {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                text-align: center;
+                color: $bg_color;
+                margin-top: 20px;
+            }
+        }
+    }
+}

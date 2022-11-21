@@ -20,8 +20,24 @@
         line-height: 36px;
         text-align: left;
     }
+    &__guarantees {
+        text-align: left;
+    }
+    &__discount{
+        span{
+            color: $orange_color;
+        }
+
+    }
 }
 
+@media (max-width: 1360px) {
+    .title{
+        &__guarantees {
+            text-align: center;
+        }
+    }
+}
 
 @media (max-width: 768px) {
     .title {
@@ -42,11 +58,20 @@
 @media (max-width: 576px) {
     .title {
         &__station,
-        &__stock,
+        &__stock{
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 27px;
+            text-align: left;
+        }
         &__block {
             font-size: 20px;
             line-height: 23px;
-            text-align: center;
+            text-align: left;
+        }
+        &__guarantees {
+            font-size: 20px;
+            line-height: 30px;
         }
     }
 
@@ -59,7 +84,9 @@
         font-size: 20px;
         line-height: 30px;
         &__benefit,
-        &__materials {
+        &__materials,
+        &__station,
+        &__stock {
             font-size: 18px;
             line-height: 27px;
         }

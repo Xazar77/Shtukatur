@@ -43,7 +43,7 @@
 @media (max-width: 1240px) {
     .main {
         &__bg{
-            right: 60px;
+            right: 0px;
             width: 430px;
             height: 450px;
             &_img {
@@ -250,7 +250,7 @@
     .main {
         height: 816px;
         &__title {
-            width: 320px;
+            width: 300px;
             height: 180px;
             font-size: 21px;
             line-height: 30px;
@@ -265,11 +265,11 @@
             font-size: 18px;
         }
         &__bg {
-            width: 340px;
+            width: 230px;
             height: 380px;
             left: 170px;
             &_img {
-                width: 340px;
+                width: 230px;
                 height: 380px;
             }
             

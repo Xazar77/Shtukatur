@@ -1,0 +1,111 @@
+@media (max-width: 1240px) {
+    .feedback {
+        &__block{
+            position: static;
+            width: 900px;
+            height: 747px;
+            margin: 0 auto;
+            &_title{
+                text-align: center;
+            }
+            &_report{
+                width: 456px;
+                margin: 40px auto;
+            }
+            &_contact{
+                width: 640px;
+                margin: 0 auto;
+            }
+            &_img {
+                position: static;
+                margin: 0 auto;
+                margin-top: 10px;
+                width: 400px;
+                height: 402px;
+            }
+        }
+    }
+}
+@media (max-width: 991px) {
+    .feedback {
+        &__block{
+            width: 700px;
+            height: 747px;
+
+            &_title{
+                width: 550px;
+                margin: 0 auto;
+            }
+            &_report{
+                position: static;
+                width: 456px;
+                margin: 30px auto;
+                text-align: center;
+                &::before{
+                    position: static;
+                    margin: 0 auto;
+                    margin-bottom: 16px;
+                }
+            }
+            &_contact{
+                width: 456px;
+                text-align: center;
+                &_wa{
+                    display: block;
+                    margin: 0 auto;
+                    margin-top: 15px;
+                }
+            }
+            &_img {
+                margin: 0 auto;
+                margin-top: 10px;
+                width: 268px;
+                
+            }
+        }
+    }
+}
+@media (max-width: 768px) {
+    .feedback {
+        &__block{
+            width: 400px;
+            margin: 0 auto;
+            height: 727px;
+            padding: 60px 20px;
+            &_title{
+                width: 280px;
+                font-size: 15px;
+                line-height: 24px;
+            }
+            &_report{
+                width: 280px;
+                font-size: 14px;
+                line-height: 20px;
+                
+            }
+            &_contact{
+                width: 280px;
+                
+            }
+            
+        }
+    }
+}
+@media (max-width: 576px) {
+    .feedback {
+        &__block{
+            width: 360px;
+            
+            
+        }
+    }
+}
+@media (max-width: 360px) {
+    .feedback {
+        &__block{
+            width: 320px;
+            
+            
+        }
+    }
+}

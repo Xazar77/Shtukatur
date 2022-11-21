@@ -1,0 +1,46 @@
+.discount{
+   &__wrapper{
+        padding: 80px 0;
+        background: linear-gradient(0deg, rgba(240, 239, 255, 0.2), rgba(240, 239, 255, 0.2)), url('../image/discount/discount_bg.png');
+        
+   }
+   &__phone{
+        width: 424px;
+        margin: 0 auto;
+        margin-top: 30px;
+        &_number{
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 30px;
+            color: $header_black;
+        }
+    }
+    &__social{
+        width: 552px;
+        margin: 0 auto;
+    }
+   &__phone,
+   &__social{
+        &_text{
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 30px;
+            color: $header_black;
+           
+        }
+    }
+    &__phone{
+        &_text{
+            margin-right: 20px;
+        }
+    }
+    &__social{
+        &_text{
+            margin-right: 30px;
+        }
+    }
+    &__social{
+        margin-top: 20px;
+    }
+}

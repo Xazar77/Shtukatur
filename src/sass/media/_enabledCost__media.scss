@@ -1,0 +1,153 @@
+@media (max-width: 1330px) {
+    .enabled-cost {
+        &__cards {
+            grid-template-columns: repeat(2, 350px);
+            grid-template-rows: repeat(3, 320px);
+            justify-content: center;
+
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .enabled-cost {
+        &__cards {
+            grid-template-columns: 320px;
+            grid-template-rows: repeat(6, 230px);
+
+            &__item {
+                &_card1 {
+                    width: 104px;
+                    height: 80px;
+
+                    img {
+                        width: 100%;
+                    }
+                }
+
+                &_card2 {
+                    width: 80px;
+                    height: 80px;
+
+                    img {
+                        width: 100%;
+                    }
+                }
+
+                &_card3 {
+                    width: 83px;
+                    height: 80px;
+
+                    img {
+                        width: 100%;
+                    }
+                }
+
+                &_card4 {
+                    width: 130px;
+                    height: 80px;
+
+                    img {
+                        width: 100%;
+                    }
+
+                }
+
+                &_card5 {
+                    width: 109px;
+                    height: 80px;
+
+                    img {
+                        width: 100%;
+                    }
+
+                }
+
+                &_title {
+                    font-size: 16px;
+                    line-height: 24px
+                }
+
+                &_descr {
+                    width: 280px;
+                    margin: 15px auto;
+                    font-size: 14px;
+                    line-height: 20px;
+                }
+            }
+            &__popup{
+                height: 330px;
+                &__title{
+                    font-size: 18px;
+                    line-height: 27px;
+                }
+                &__descr{
+                    font-size: 14px;
+                    line-height: 20px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .enabled-cost {
+        &__cards {
+            grid-template-columns: 300px;
+            grid-template-rows: repeat(6, 320px);
+
+            &__item {
+                &_card1 {
+                    width: 104px;
+                    height: 80px;
+                }
+
+                &_card2 {
+                    width: 80px;
+                    height: 80px;
+                }
+
+                &_card3 {
+                    width: 83px;
+                    height: 80px;
+                    ;
+                }
+
+                &_card4 {
+                    width: 130px;
+                    height: 80px;
+
+                }
+
+                &_card5 {
+                    width: 109px;
+                    height: 80px;
+
+                }
+
+                &_title {
+                    font-size: 16px;
+                    line-height: 24px
+                }
+
+                &_descr {
+                    width: 280px;
+                    margin: 15px auto;
+                    font-size: 14px;
+                    line-height: 20px;
+                }
+            }
+
+        }
+        &__popup{
+            &_title{
+                font-size: 18px;
+                line-height: 27px;
+            }
+            &_descr{
+                font-size: 14px;
+                line-height: 20px;
+            }
+        }
+    }
+}

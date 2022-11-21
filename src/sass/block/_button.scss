@@ -36,6 +36,14 @@
         }
         
     }
+    &_white {
+        display: block;
+        margin: 0 auto;
+        width: 280px;
+        height: 56px;
+        margin-top: 40px;
+
+    }
     &_delivery,
     &_post{
         width: 370px;
@@ -123,5 +131,13 @@
         border: 1px solid $orange_color;
         color: $bg_color;
         margin-top: 30px;
+    }
+    &_wa{
+        width: 163px;
+        height: 18px;
+        background: $orange_color;
+        border: 1px solid $orange_color;
+        color: $bg_color;
+        padding: 12px 24px;
     }
 }

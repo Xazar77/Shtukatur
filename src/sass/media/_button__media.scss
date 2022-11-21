@@ -1,5 +1,5 @@
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
     .btn{
         &_big{
             width: 314px;
@@ -7,6 +7,11 @@
         }
         &_mini {
             font-size: 14px;
+        }
+        &_wa{
+            width: 271px;
+            height: 42px;
+            
         }
     }
    
@@ -75,19 +80,26 @@
         &__cost {
             width: 300px;
         }
+        &_white {
+            width: 257px;
+            height: 44px;
+            margin-top: 30px;
+    
+        }
         
     }
 
 }
 @media (max-width: 360px) {
     .btn {
-        .btn_delivery{
+        &_delivery{
             width: 279px;
             height: 48px;
         }
-        .btn_post{
+        &_post{
             width: 279px;
             height: 48px;
         }
+        
     }
 }

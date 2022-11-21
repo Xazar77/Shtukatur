@@ -8,6 +8,7 @@
     padding: 0;
     font-family: 'Montserrat';
 }
+
 .container {
     
     width: 1200px;
@@ -24,9 +25,16 @@
 @import './block/calc';
 @import './block/materials';
 @import './block/cost';
+@import './block/enabledCost';
+@import './block/feedback';
+@import './block/guarantees';
+@import './block/discount';
+@import './block/services';
+@import './block/reviews';
+@import './block/dots';
 
 
-@import './media/button_media';
+@import './media/button__media';
 @import './media/container__media';
 @import './media/header__media';
 @import './media/main__media';
@@ -34,4 +42,10 @@
 @import './media/benefit__media';
 @import './media/calc__media';
 @import './media//materials__media';
-@import './media/cost_media';
+@import './media/cost__media';
+@import './media/enabledCost__media';
+@import './media//feedback__media';
+@import './media/guarantees__media';
+@import './media/discount__media';
+@import './media/services__media';
+@import './media/reviews__media';
