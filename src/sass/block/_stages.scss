@@ -1,0 +1,55 @@
+.stages{
+    margin-top: 100px;
+    &__works{
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 40px;
+        gap: 20px;
+    }
+    &__line{
+        position: absolute;
+        top: 31px;
+        left: 146px;
+        width: 912px;
+        height: 3px;
+        background: #FFECD9;
+        z-index: -1;
+    }
+    &__item{
+        width: 224px;
+        height: 285px;
+        &_number{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            width: 64px;
+            height: 64px;
+            background: #FFECD9;
+            margin: auto;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 36px;
+            text-transform: uppercase;
+            color: $orange_color;
+        }
+        &_title{
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 30px;
+            text-align: center;
+            color: $header_black;
+            margin-top: 20px;
+        }
+        &_descr{
+            margin-top: 15px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            text-align: center;
+            color: $light_grey;
+        }
+    }
+}

@@ -1,0 +1,102 @@
+.contacts{  
+    margin-top: 100px;
+    &__wrap{
+        background: #FFF7F3;
+        border-radius: 30px;
+        padding: 60px 80px;
+    }
+    &__call{
+        text-align: center;
+        margin-top: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        color: $light_grey;
+        &_phone,
+        &_wa{
+            margin-left: 20px;
+            text-decoration: none; 
+        }
+        &_phone{
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 30px;
+            color: $header_black;
+        }
+        &_wa{
+            display: block;
+            padding: 12px 22px;
+            border: 1px solid $orange_color;
+            border-radius: 4px;
+            width: 211px;
+            height: 42px;
+            font-weight: 700;
+            font-size: 12px;
+            line-height: 18px;
+            text-transform: uppercase;
+            color: $orange_color;
+        }
+        &_application{
+            margin-top: 15px;
+            text-align: center;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 27px;
+            color: $light_grey;
+        }
+    }
+    &__politic{
+        margin-top: 15px;
+        text-align: center;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #4F4F4F;
+        a{
+            text-decoration-line: underline;
+            color: #4F4F4F;
+        }
+    }
+
+}
+
+.form{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &__select{
+        padding: 16px;
+        width: 370.5px;
+        height: 56px;
+        background: $bg_color;
+        border: 1px solid $border_light;
+        border-radius: 100px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #828282;
+        outline: none;
+    }
+    &__phone{
+        label{
+            display: none;
+        }
+        input{
+            padding: 16px;
+        width: 370.5px;
+        height: 56px;
+        background: $bg_color;
+        border: 1px solid $border_light;
+        border-radius: 100px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #828282;
+        outline: none;
+        }
+    }
+}

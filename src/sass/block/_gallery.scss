@@ -1,0 +1,18 @@
+.gallery{
+    margin-top: 100px;
+    &__list{
+        margin-top: 30px;
+        margin-bottom: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        &_item{
+            width: 277px;
+            height: 200px;
+            img{
+                width: 100%;
+            }
+        }
+    }
+}

@@ -2,6 +2,9 @@
 @import './block/fonts';
 @import './variable/variable';
 @import './mixin/block__btns';
+
+
+
 *, *::after, *::before {
     box-sizing: border-box;
     margin: 0;
@@ -10,7 +13,6 @@
 }
 
 .container {
-    
     width: 1200px;
     margin: 0 auto;
 }
@@ -31,7 +33,14 @@
 @import './block/discount';
 @import './block/services';
 @import './block/reviews';
+@import './block/arrow';
 @import './block/dots';
+@import './block/example';
+@import './block/gallery';
+@import './block/stages';
+@import './block/location';
+@import './block/contacts';
+@import './block/footer';
 
 
 @import './media/button__media';

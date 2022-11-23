@@ -140,4 +140,39 @@
         color: $bg_color;
         padding: 12px 24px;
     }
+    &__more{
+        display: block;
+        border: 1px solid $orange_color;
+        border-radius: 100px;
+        width: 273px;
+        height: 56px;
+        padding: 16px 46px;
+        margin: auto;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        text-transform: uppercase;
+        color: $orange_color;
+        text-decoration: none;
+    }
+    &__call{
+        width: 267px;
+        height: 56px;
+        background: $orange_color;
+        color: $bg_color;
+        display: block;
+        margin: auto;
+        margin-top: 40px;
+    }
+    &__form{
+        padding: 16px 46px;
+        width: 269px;
+        height: 56px;
+        background: $orange_color;
+        border: 1px solid $orange_color;
+        border-radius: 100px;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FFFFFF;
+    }
 }

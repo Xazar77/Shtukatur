@@ -1,13 +1,13 @@
 .reviews{
     position: relative;
-    padding: 76px 0;
+    padding-top: 76px;
     &__wrapper{
-        position: relative;
         display: flex;
         align-items: center;
         justify-content: space-between;
         gap: 31px;
-        margin-top: 40px;             
+        margin-top: 40px;   
+        overflow: hidden;          
     }
     &__item{
         position: relative;
@@ -25,27 +25,6 @@
             background: $bg_color ;
         }
     }
-    &__arrow{
-        position: absolute;
-        top: 50%;
-        width: 56px;
-        height: 56px;
-        padding: 16px;
-        border-radius: 50%;
-        background: $bg_color;
-        box-shadow: 4px 4px 24px rgba(0, 0, 0, 0.08);
-        font-size: 24px;
-        line-height: 20px;
-        font-family: fantasy;
-        &_active{
-            color: $orange_color;
-        }
-        &_left{   
-            left: 20%;
-        }
-        &_right{
-            right: 20%;
-        }
-    }
+    
 
 }

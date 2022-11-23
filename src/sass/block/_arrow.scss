@@ -1,0 +1,35 @@
+.arrows__group{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1413px;
+    
+    
+}
+
+.arrow{
+
+    width: 56px;
+    height: 56px;
+    padding: 16px;
+    border-radius: 50%;
+    background: $bg_color;
+    box-shadow: 4px 4px 24px rgba(0, 0, 0, 0.08);
+    font-size: 24px;
+    line-height: 20px;
+    font-family: fantasy;
+    &_active{
+        color: $orange_color;
+    }
+    &_prev{   
+        left: 0;
+    }
+    &_next{
+        right: 0;
+    }
+    
+}

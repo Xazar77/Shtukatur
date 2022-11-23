@@ -1,0 +1,65 @@
+.example{
+    position: relative;
+    margin-top: 100px;
+    &__wrap{
+        position: relative;
+        margin-top: 40px;    
+    }
+    &__item{
+        display: flex;
+        position: relative;
+    }
+    &__img{
+        width: 600px;
+        height: 440px;
+        img{
+            width: 100%;
+        }
+    }
+    &__text{
+        position: absolute;
+        bottom: 38px;
+        padding: 10px 24px;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+        color: $header_black;
+        background: rgba(255, 255, 255, 0.8);
+        border-radius: 4px;
+        &_left{
+            left: 30px;
+        }
+        &_right{
+            right: 30px;
+        }
+    }
+    &__btn{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 12px 7px;
+        width: 64px;
+        height: 64px;
+        background: $orange_color;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &_right,
+        &_left{
+            svg{
+                width: 24px;
+                height: 24px;
+            }
+        }
+        &_devider{
+            width: 1px;
+            height: 40px;
+            background: rgba(255, 255, 255, 0.5);
+
+            
+        }
+    }
+}
